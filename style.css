@@ -1,12 +1,49 @@
+
+@media only screen and (max-width:768px) {
+
+    section{ 
+        display: grid;        
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr ;}
+    button {
+
+    vertical-align: middle;
+    width: 40px;
+    height: 80px;
+        
+    }
+    
+ }
+
+ @media only screen and (min-width:768px) {
+
+    button {
+
+        vertical-align: middle;
+        width: 70px;
+        height: 250px;
+            
+        }
+
+ }
+ 
+ 
+ @media only screen and (min-width:1400px) {
+     button {
+
+    vertical-align: middle;
+    width: 100px;
+    height: 400px;
+
+     }
+ }
+ 
+
+
 body {
     background: coral;
     text-align: center;
     line-height: 100vh;
-    margin: 0;
+    
 }
 
-button { 
-    vertical-align: middle;
-    width: 100px;
-    height: 400px;
-}
